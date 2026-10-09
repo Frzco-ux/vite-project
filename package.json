@@ -8,8 +8,9 @@
     "build": "tsc -b && vite build",
     "lint:js": "oxlint",
     "lint:css": "stylelint \"src/**/*.css\"",
+    "lint:html": "markuplint index.html",
     "lint:md": "markdownlint-cli2 \"**/*.md\"",
-    "lint": "npm run lint:js && npm run lint:css && npm run lint:md",
+    "lint": "npm run lint:js && npm run lint:css && npm run lint:html && npm run lint:md",
     "format": "prettier --write .",
     "preview": "vite preview"
   },
@@ -28,6 +29,7 @@
     "autoprefixer": "^10.6.1",
     "babel-plugin-react-compiler": "^1.0.0",
     "markdownlint-cli2": "^0.23.3",
+    "markuplint": "^5.1.0",
     "oxlint": "^1.81.0",
     "postcss": "^8.5.29",
     "prettier": "^3.9.9",

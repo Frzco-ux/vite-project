@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "require-h1": false,
+    "head-element-order": false
+  }
+}
