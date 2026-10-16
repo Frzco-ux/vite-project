@@ -1,0 +1,166 @@
+.xeory-page {
+  min-height: 100svh;
+  color: #fff;
+  font-family:
+    "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.xeory-header {
+  position: relative;
+  z-index: 1;
+  height: 92px;
+  background: #47b39d;
+  border-bottom: 1px solid rgb(255 255 255 / 12%);
+}
+
+.xeory-header-inner {
+  display: flex;
+  width: min(1200px, calc(100% - 48px));
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.xeory-header-brand {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.xeory-header-nav {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 30px;
+}
+
+.xeory-header-nav-link {
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+  transition: opacity 160ms ease;
+}
+
+.xeory-header-nav-link:hover {
+  opacity: 0.75;
+}
+
+.xeory-header-menu-button {
+  display: none;
+}
+
+.xeory-hero {
+  min-height: calc(100svh - 92px);
+  box-sizing: border-box;
+  padding: clamp(170px, 30vh, 270px) 24px 80px;
+  background: #41baa4;
+  text-align: center;
+}
+
+.xeory-hero-content {
+  width: min(100%, 1200px);
+  margin: 0 auto;
+}
+
+.xeory-hero-title {
+  margin: 0 0 24px;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1.45;
+}
+
+.xeory-hero-description {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+@media (max-width: 767px) {
+  .xeory-header {
+    height: auto;
+    padding: 0 18px 12px;
+    border-bottom: 0;
+  }
+
+  .xeory-header-inner {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .xeory-header-brand {
+    display: flex;
+    width: 100%;
+    height: 58px;
+    align-items: center;
+    font-size: 23px;
+  }
+
+  .xeory-header-menu-button {
+    display: flex;
+    width: 100%;
+    height: 48px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 0;
+    border: 0;
+    background: #3b4552;
+    cursor: pointer;
+  }
+
+  .xeory-header-menu-button span {
+    display: block;
+    width: 19px;
+    height: 2px;
+    background: #fff;
+  }
+
+  .xeory-header-nav {
+    display: none;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    background: #3b4552;
+  }
+
+  .xeory-header-nav.is-open {
+    display: flex;
+  }
+
+  .xeory-header-nav-link {
+    padding: 14px 18px;
+    border-top: 1px solid rgb(255 255 255 / 14%);
+    font-size: 14px;
+  }
+
+  .xeory-hero {
+    min-height: calc(100svh - 118px);
+    padding: clamp(170px, 30vh, 270px) 24px 56px;
+  }
+
+  .xeory-hero-title {
+    font-size: 36px;
+    margin-bottom: 22px;
+  }
+
+  .xeory-hero-description {
+    font-size: 15px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .xeory-header-nav-link {
+    transition: none;
+  }
+}
