@@ -1,0 +1,48 @@
+.xeory-hero {
+  min-height: calc(100svh - 92px);
+  box-sizing: border-box;
+  padding: clamp(170px, 30vh, 270px) 24px 80px;
+  background: #41baa4;
+  color: #fff;
+  font-family:
+    "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  text-align: center;
+}
+
+.xeory-hero-content {
+  width: min(100%, 1200px);
+  margin: 0 auto;
+}
+
+.xeory-hero-title {
+  margin: 0 0 24px;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1.45;
+}
+
+.xeory-hero-description {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+@media (max-width: 767px) {
+  .xeory-hero {
+    min-height: calc(100svh - 118px);
+    padding: clamp(170px, 30vh, 270px) 24px 56px;
+  }
+
+  .xeory-hero-title {
+    font-size: 36px;
+    margin-bottom: 22px;
+  }
+
+  .xeory-hero-description {
+    font-size: 15px;
+  }
+}
