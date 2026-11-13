@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <defs>
+    <linearGradient id="cafe" x2="0" y2="1"><stop stop-color="#32271f"/><stop offset="1" stop-color="#9b6843"/></linearGradient>
+  </defs>
+  <path fill="url(#cafe)" d="M0 0h640v420H0z"/>
+  <path fill="#211d1a" d="M0 0h640v73H0z"/>
+  <path stroke="#d2a865" stroke-width="9" d="M61 0v99m119-99v89m155-89v103m153-103v90m100-90v81"/>
+  <path fill="#e9bb70" d="M44 90h32v48H44zm119-8h32v49h-32zm157 11h32v49h-32zm151-4h32v48h-32zm102-8h32v47h-32z"/>
+  <path fill="#684630" d="M0 169h640v30H0zM0 260h640v15H0z"/>
+  <path fill="#d1a16b" d="M0 196h640v12H0zM55 219h530v10H55z"/>
+  <path fill="#222526" d="M110 211q39-15 62 17l20 125h-98zm168-20q36-12 58 24l14 142h-95zm182 5q31-12 52 22l23 137h-94z"/>
+  <circle cx="144" cy="201" r="28" fill="#bc8b67"/>
+  <circle cx="306" cy="181" r="27" fill="#d4a27b"/>
+  <circle cx="487" cy="187" r="27" fill="#a87252"/>
+  <path fill="#b35f38" d="M113 239h68l17 99h-98zm163-13h66l22 112h-98zm179 3h69l25 109h-99z"/>
+  <path fill="#31261e" d="M0 354h640v66H0z"/>
+</svg>
