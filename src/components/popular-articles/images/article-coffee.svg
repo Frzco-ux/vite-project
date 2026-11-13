@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <defs>
+    <linearGradient id="window" x2="0" y2="1"><stop stop-color="#f5eee0"/><stop offset="1" stop-color="#c6b39a"/></linearGradient>
+    <linearGradient id="table" x2="0" y2="1"><stop stop-color="#cda77a"/><stop offset="1" stop-color="#8b6246"/></linearGradient>
+  </defs>
+  <path fill="url(#window)" d="M0 0h640v258H0z"/>
+  <path fill="#fff" opacity=".7" d="M22 30h233v156H22zm264-12h322v176H286z"/>
+  <path fill="#a4b2aa" opacity=".55" d="m45 144 73-47 66 38 56-57v108H45zm267 11 79-83 61 54 74-91 68 125v40H312z"/>
+  <path fill="#fff" opacity=".75" d="M0 250h640v25H0z"/>
+  <path fill="url(#table)" d="M0 276h640v144H0z"/>
+  <path fill="#eadfd0" d="m347 277 247-18q14 0 15 14l4 111-241 16z"/>
+  <path fill="#202a2d" d="m367 282 218-15 1 101-217 15z"/>
+  <path fill="#394d50" d="m379 287 194-13v84l-193 14z"/>
+  <path fill="#f1eee7" d="m72 263 105 7q11 1 15 14l17 64q2 12-11 12l-104-6q-14-1-17-14l-15-62q-3-15 10-15z"/>
+  <path fill="#d7cbbb" d="m176 273 30 5q16 4 11 19l-8 19q-3 7-12 4l-12-5z"/>
+  <ellipse cx="128" cy="289" rx="29" ry="7" fill="#8a5a38"/>
+  <path fill="#e6d7bd" d="m20 369 290-21 32 11-300 26z"/>
+</svg>
