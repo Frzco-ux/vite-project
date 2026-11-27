@@ -1,0 +1,31 @@
+.xeory-section-heading {
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.xeory-section-eyebrow {
+  display: block;
+  margin-bottom: 8px;
+  color: #47b39d;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+.xeory-section-heading h2 {
+  margin: 0;
+  color: #292929;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 640px) {
+  .xeory-section-heading {
+    margin-bottom: 32px;
+  }
+
+  .xeory-section-heading h2 {
+    font-size: 24px;
+  }
+}
