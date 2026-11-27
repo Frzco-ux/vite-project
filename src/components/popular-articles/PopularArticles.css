@@ -1,0 +1,72 @@
+.popular-articles {
+  border-top: 1px solid #e8e8e8;
+  background: #fff;
+  color: #333;
+  font-family:
+    'Yu Gothic', YuGothic, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  padding-bottom: 72px;
+}
+
+.popular-articles-heading {
+  display: flex;
+  min-height: 102px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.popular-articles-heading h2 {
+  margin: 0;
+  color: #292929;
+  font-size: 27px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.popular-articles-flag {
+  width: 23px;
+  height: 23px;
+  fill: #333;
+  stroke: #333;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.5px;
+}
+
+.popular-articles-grid {
+  display: grid;
+  width: min(1406px, calc(100% - 48px));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 30px;
+  margin: 46px auto 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (max-width: 1000px) {
+  .popular-articles-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .popular-articles {
+    padding-bottom: 48px;
+  }
+
+  .popular-articles-heading {
+    min-height: 82px;
+  }
+
+  .popular-articles-heading h2 {
+    font-size: 23px;
+  }
+
+  .popular-articles-grid {
+    width: min(100% - 36px, 520px);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px 16px;
+    margin-top: 28px;
+  }
+}

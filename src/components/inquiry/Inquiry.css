@@ -1,0 +1,96 @@
+.xeory-inquiry {
+  padding: 82px 24px 96px;
+  background: #fff;
+  color: #333;
+  font-family:
+    'Yu Gothic', YuGothic, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+}
+
+.xeory-inquiry-form {
+  display: grid;
+  width: min(760px, 100%);
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.xeory-inquiry-field {
+  display: grid;
+  gap: 8px;
+  color: #555;
+  font-size: 14px;
+}
+
+.xeory-required {
+  margin-left: 6px;
+  color: #47a991;
+  font-size: 11px;
+}
+
+.xeory-inquiry-field input,
+.xeory-inquiry-field textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px 15px;
+  border: 1px solid #dedede;
+  border-radius: 0;
+  background: #fafafa;
+  color: #333;
+  font: inherit;
+}
+
+.xeory-inquiry-field textarea {
+  resize: vertical;
+}
+
+.xeory-inquiry-field input:focus-visible,
+.xeory-inquiry-field textarea:focus-visible {
+  border-color: #47b39d;
+  outline: 2px solid rgb(71 179 157 / 22%);
+  outline-offset: 1px;
+}
+
+.xeory-inquiry-submit {
+  display: flex;
+  min-height: 54px;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border: 0;
+  background: #47b39d;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  transition: background-color 160ms ease;
+}
+
+.xeory-inquiry-submit:hover {
+  background: #399b87;
+}
+
+.xeory-inquiry-submit:focus-visible {
+  outline: 2px solid #333;
+  outline-offset: 3px;
+}
+
+.xeory-inquiry-notice {
+  color: #777;
+  font-size: 13px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .xeory-inquiry {
+    padding: 58px 18px 64px;
+  }
+
+  .xeory-inquiry-form {
+    gap: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .xeory-inquiry-submit {
+    transition: none;
+  }
+}

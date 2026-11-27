@@ -1,0 +1,115 @@
+.xeory-services {
+  padding: 82px 24px 96px;
+  background: #fff;
+  color: #333;
+  font-family:
+    'Yu Gothic', YuGothic, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+}
+
+.xeory-services-grid {
+  display: grid;
+  width: min(1120px, 100%);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  margin: 0 auto;
+}
+
+.xeory-service {
+  display: flex;
+  min-height: 260px;
+  align-items: center;
+  gap: 28px;
+  padding: 34px;
+  box-sizing: border-box;
+  border: 1px solid #e8e8e8;
+}
+
+.xeory-service-number {
+  display: grid;
+  width: 78px;
+  height: 78px;
+  flex: 0 0 78px;
+  place-items: center;
+  border-radius: 50%;
+  background: #47b39d;
+  color: #fff;
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.xeory-service-content {
+  min-width: 0;
+}
+
+.xeory-service-english {
+  color: #47a991;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+}
+
+.xeory-service h3 {
+  margin: 6px 0 12px;
+  color: #333;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.xeory-service-description {
+  margin-bottom: 18px;
+  color: #777;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.xeory-service-link {
+  display: inline-block;
+  color: #47a991;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.xeory-service-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .xeory-services-grid {
+    grid-template-columns: 1fr;
+    max-width: 660px;
+  }
+
+  .xeory-service {
+    min-height: 220px;
+  }
+}
+
+@media (max-width: 640px) {
+  .xeory-services {
+    padding: 58px 18px 64px;
+  }
+
+  .xeory-service {
+    min-height: 0;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 24px 20px;
+  }
+
+  .xeory-service-number {
+    width: 52px;
+    height: 52px;
+    flex-basis: 52px;
+    font-size: 16px;
+  }
+
+  .xeory-service h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .xeory-service {
+    flex-direction: column;
+  }
+}

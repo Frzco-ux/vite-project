@@ -1,0 +1,64 @@
+.xeory-footer {
+  padding: 48px 24px 28px;
+  background: #3b4552;
+  color: #fff;
+  font-family:
+    'Yu Gothic', YuGothic, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+}
+
+.xeory-footer-inner {
+  display: flex;
+  width: min(1200px, 100%);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.xeory-footer-brand {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.xeory-footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.xeory-footer-nav a {
+  color: rgb(255 255 255 / 78%);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.xeory-footer-nav a:hover {
+  color: #fff;
+}
+
+.xeory-footer-copyright {
+  width: 100%;
+  padding-top: 20px;
+  border-top: 1px solid rgb(255 255 255 / 16%);
+  color: rgb(255 255 255 / 64%);
+  font-size: 12px;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .xeory-footer {
+    padding: 36px 20px 24px;
+  }
+
+  .xeory-footer-inner {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .xeory-footer-nav {
+    justify-content: center;
+    gap: 14px 18px;
+  }
+}

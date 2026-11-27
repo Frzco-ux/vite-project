@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <defs>
+    <linearGradient id="background" x2="0" y2="1"><stop stop-color="#986e4d"/><stop offset="1" stop-color="#312920"/></linearGradient>
+    <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#202d34"/><stop offset="1" stop-color="#070b0d"/></linearGradient>
+  </defs>
+  <path fill="url(#background)" d="M0 0h640v420H0z"/>
+  <path fill="#38271c" d="M0 315h640v105H0z"/>
+  <ellipse cx="333" cy="344" rx="263" ry="34" fill="#bd9870" opacity=".32"/>
+  <path fill="#272727" d="m149 300 43-199q4-15 20-14l298 18q16 1 13 17l-30 191z"/>
+  <path fill="url(#screen)" d="m169 282 37-169 280 17-26 169z"/>
+  <path fill="#e2e1d8" d="m118 301 400 8 67 40q11 8-6 13l-431-12q-15-1-8-11z"/>
+  <path fill="#988979" d="m147 309 362 8-45 32-326-10z"/>
+  <path fill="#514338" d="M277 309h95l-18 12h-94z"/>
+  <path fill="#c3a98c" d="m63 347 92-4 14 7-96 5z"/>
+  <path fill="#e6d0b0" d="M529 352h50v5h-50z"/>
+  <path fill="#d4b281" opacity=".75" d="m20 75 145 20-8 7L12 82zm456 18 111-9-2 7-108 11z"/>
+</svg>
